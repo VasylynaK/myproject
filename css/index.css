@@ -30,11 +30,12 @@ header {
     background-color: #ffffff;
     opacity: 0.9;
     top: 0;
+    z-index: 1;
 }
 
 #logo img {
     left: 0;
-    width: 200px;
+    width: 21%;
     height: 100px;
 }
 
@@ -167,7 +168,7 @@ main #home {
 }
 
 #reconstruction img {
-    width: 450px;
+    width: 50%;
     height: 260px;
     float: left;
     padding: 15px;
@@ -178,14 +179,14 @@ main #home {
 }
 
 #caries img {
-    width: 450px;
+    width: 50%;
     height: 260px;
     float: right;
     padding: 15px;
 }
   
 #fillings img {
-    width: 450px;
+    width: 50%;
     height: 260px;
     float: left;
     padding: 15px;
@@ -196,14 +197,14 @@ main #home {
 }
 
 #veneers img {
-    width: 450px;
+    width: 50%;
     height: 220px;
     float: right;
     padding: 15px;
 }
 
 #prosthesis img {
-    width: 450px;
+    width: 50%;
     height: 200px;
     float: left;
     padding: 15px;
@@ -214,7 +215,7 @@ main #home {
 }
 
 #smile-design img {
-    width: 450px;
+    width: 50%;
     height: 260px;
     float: right;
     padding: 15px;
@@ -227,7 +228,7 @@ blockquote {
 }
 
 #microprosthetics img {
-    width: 450px;
+    width: 50%;
     height: 260px;
     float: left;
     padding: 15px;
@@ -238,7 +239,7 @@ blockquote {
 }
 
 #temporary-prosthesis img {
-    width: 450px;
+    width: 50%;
     height: 260px;
     float: right;
     padding: 15px;
@@ -263,7 +264,7 @@ blockquote {
 }
 #contact h4 {
     margin: 0;
-    margin-left: 40px;
+    margin-left: 4%;
     font-size: 17px;
 }
 
@@ -271,11 +272,11 @@ blockquote {
     margin-top: -4px;
 }
 #contact {
-    margin-left: 170px;
+    margin-left: 16%;
     font-size: 16px;
     font-style: italic;
     column-count: 2;
-    column-width: 50px;
+    column-width: auto;
 }
 
 iframe {
@@ -285,6 +286,7 @@ iframe {
 }
 
 footer {
+    border: 0;
     background-color: #fff7f8;
     margin: 0;
     padding: 0;
