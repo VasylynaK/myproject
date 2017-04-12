@@ -239,11 +239,16 @@
         padding: 0;
     }
     
-    .left, .right {
+    .left {
         text-align: center;
         font-style: oblique;
         margin-left: 0;
     } 
+    .right {
+        text-align: center;
+        font-style: oblique;
+        margin-right: 0;
+    }
     
     blockquote {
         margin-right: 2%;
