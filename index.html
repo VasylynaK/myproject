@@ -5,32 +5,38 @@
     <title>Стоматологічна клініка "Еліт-S"</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <!-- Optional theme -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/index.css">
     <link href="css/index-layout.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
     <header>
-        <div id="logo">
+        <div id="logo" class="logo">
             <img src="img/elits.png" alt="Еліт-S">
         </div>
-        <nav class="menu">
+        <nav id="cssmenu">
+            <div id="head-mobile"></div>
+            <div class="button"></div>
             <ul id="nav">
-                <li><a href="#home">Головна</a></li>
-                <li><a href="#medicine">Лікування</a>
+                <li><a href="#home" class="smooth">Головна</a></li>
+                <li><a href="#medicine" class="smooth">Лікування</a>
                     <div>
                         <ul>
-                            <li><a href="#therapy">Терапевтична стоматологія</a></li>
-                            <li><a href="#orthopedics">Ортопедія</a></li>
-                            <li><a href="#implantology">Імплантологія</a></li>
-                            <li><a href="#orthodontics">Ортодонтія</a></li>
-                            <li><a href="#whitening">Відбілювання та гігієна зубів</a></li>
-                            <li><a href="#periodontics">Парадонтологія</a></li>
-                            <li><a href="#surgery">Хірургічна стоматологія</a></li>
+                            <li><a href="#therapy" class="smooth">Терапевтична стоматологія</a></li>
+                            <li><a href="#orthopedics" class="smooth">Ортопедія</a></li>
+                            <li><a href="#implantology" class="smooth">Імплантологія</a></li>
+                            <li><a href="#orthodontics" class="smooth">Ортодонтія</a></li>
+                            <li><a href="#whitening" class="smooth">Відбілювання та гігієна зубів</a></li>
+                            <li><a href="#periodontics" class="smooth">Парадонтологія</a></li>
+                            <li><a href="#surgery" class="smooth">Хірургічна стоматологія</a></li>
                         </ul>
                     </div>
                 </li>    
-                <li><a href="#feedback">Відгуки</a></li>
-                <li><a href="#contacts">Контакти</a></li>
+                <li><a href="#feedback" class="smooth">Відгуки</a></li>
+                <li><a href="#contacts" class="smooth">Контакти</a></li>
             </ul>
         </nav>
     </header>
@@ -104,7 +110,7 @@
                 </div>
                 <h2 class="left">Реставрація зруйнованих зубів</h2>
                 <div id="reconstruction">
-                    <img src="img/reconstruction.png" alt="Реконструкція зубів">
+                    <img src="img/reconstruction.jpg" alt="Реконструкція зубів">
                     <p>
                         Надзвичайно важливу роль  у зовнішності людини відіграє її усмішка, 
                         так як гарна посмішка ознака здоров’я і гарного настрою. Усмішка – 
@@ -133,10 +139,10 @@
                         чудову, променисту посмішку!
                     </p>
                 </div>
-                <h1>Ортопедія</h1>
+                <h1 id="orthopedics">Ортопедія</h1>
                 <h2 class="right">Що таке вініри?</h2>
                 <div id="veneers">
-                    <img src="img/veneers.png" alt="Вініри">
+                    <img src="img/veneers.jpg" alt="Вініри">
                 <p>
                     Вініри – це найкращий спосіб отримати ідеальну посмішку, про 
                     яку Ви завжди мріяли! Вони допомагають відкоректувати пошкоджену 
@@ -256,44 +262,43 @@
         </section>
         <section id="contacts">
             <h1>Контакти</h1>
-                <div id="icon">
-                </div>
-                <div id="contact">
-                    <img src="img/phone_icon.png" alt="Телефон" id="phone">
-                    <h4>Контакти:</h4>
-                    <p>+380000000000
-                    <br>
-                    +380000000000
-                    </p>
-                    <img src="img/clock.png" alt="Годинник">
-                    <h4>Графік роботи:</h4>
-                    <p>Пн-Сб: 08:00-23:00
-                    <br>Нд: вихідний день</p>
-                    <img src="img/email.png" alt="Email">
-                    <h4>Email:</h4>
-                    <p>elits@gmail.com</p>
-                    <img src="img/location.png" alt="Локація">
-                    <h4>Адрес:</h4>
-                    <p>79007, м. Львів,
-                    <br> вул. Леонтовича 3/2</p>
-                </div>
-                <br>
-                <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.966552966999!2d24.015892916056387!3d49.84308597939621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7422c016e1%3A0x43e6d3bbe9b22b6f!2z0KHRgtC-0LzQsNGC0L7Qu9C-0LPRltGH0L3QsCDQmtC70ZbQvdGW0LrQsCDQldC70ZbRgi1T!5e0!3m2!1suk!2sua!4v1490800887467">
-                    </iframe>
-                </div>
+            <div id="icon">
+            </div>
+            <div id="contact">
+                <img src="img/phone_icon.png" alt="Телефон" id="phone">
+                <h4>Контакти:</h4>
+                <p>+380000000000</p>
+                <img src="img/clock.png" alt="Годинник">
+                <h4>Графік роботи:</h4>
+                <p>Пн-Сб: 08:00-23:00
+                <br>Нд: вихідний день</p>
+                <img src="img/email.png" alt="Email">
+                <h4>Email:</h4>
+                <p>elits@gmail.com</p>
+                <img src="img/location.png" alt="Локація">
+                <h4>Адрес:</h4>
+                <p>79007, м. Львів,
+                <br> вул. Леонтовича 3/2</p>
+            </div>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.966552966999!2d24.015892916056387!3d49.84308597939621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7422c016e1%3A0x43e6d3bbe9b22b6f!2z0KHRgtC-0LzQsNGC0L7Qu9C-0LPRltGH0L3QsCDQmtC70ZbQvdGW0LrQsCDQldC70ZbRgi1T!5e0!3m2!1suk!2sua!4v1490800887467">
+        </iframe>
         <footer>
             <nav>
             <ul id="footer">
-                <li><a href="#home">Головна</a></li>
-                <li><a href="#medicine">Лікування</a></li>    
-                <li><a href="#feedback">Відгуки</a></li>
-                <li><a href="#contacts">Контакти</a></li>
+                <li><a href="#home" class="smooth">Головна</a></li>
+                <li><a href="#medicine" class="smooth">Лікування</a></li>    
+                <li><a href="#feedback" class="smooth">Відгуки</a></li>
+                <li><a href="#contacts" class="smooth">Контакти</a></li>
             </ul>
         </nav>
         </footer>
     </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+    <script src="js/navigation.js"></script>
+    <script src="js/smooth-scroll.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
