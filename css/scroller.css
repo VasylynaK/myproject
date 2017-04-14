@@ -1,0 +1,12 @@
+.scrollToTop {
+	width: 100px;
+	height: 130px;
+	padding: 10px;
+	position: fixed;
+	align-items: flex-end;
+	top: 82%;
+	right: 20%;
+	display: none;
+	background: url('../img/scroll.png') no-repeat 0px 70px;
+	background-size: cover;
+}

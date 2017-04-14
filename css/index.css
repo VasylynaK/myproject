@@ -21,13 +21,11 @@ body {
 
 main {
     background-color: #fff7f8;
-    margin-top: 100px;
     padding: 10px;
 }
 
 header {
     max-width: 100%;
-    position: fixed;
     height: 100px;
     background-color: #ffffff;
     opacity: 0.9;
@@ -43,8 +41,9 @@ header {
     height: 100px;
 }
 
-#nav {
-    margin-left: 165px;
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu #head-mobile {
+    display: inline-block; 
+    position:relative;
 }
 
 header > nav > ul {
